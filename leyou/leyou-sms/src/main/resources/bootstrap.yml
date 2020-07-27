@@ -1,7 +1,24 @@
+#spring:
+#  cloud:
+#    config:
+#      name: sms
+#      profile: dev
+#      label: master
+#      uri: http://127.0.0.1:10011
+server:
+  port: 8086
 spring:
-  cloud:
-    config:
-      name: sms
-      profile: dev
-      label: master
-      uri: http://127.0.0.1:10011
+  application:
+    name: sms-service
+  rabbitmq:
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+    host: 192.168.0.4
+
+leyou:
+  sms:
+    accessKeyId: LTAI4FqFQ1bwLuag3HvwzhMr
+    accessKeySecret: 43Gbv3l3w8SwOasDchncOQhGwDgjoA
+    signName: 小武商城
+    verifyCodeTemplate: SMS_186616154

@@ -18,8 +18,8 @@ import java.security.PublicKey;
  * @Time: 2018-10-23 22:20
  * @Feature: jwt配置参数
  */
-//@ConfigurationProperties(prefix = "leyou.jwt")
-@Configuration
+@ConfigurationProperties(prefix = "leyou.jwt")
+//@Configuration
 @RefreshScope
 public class JwtProperties {
 

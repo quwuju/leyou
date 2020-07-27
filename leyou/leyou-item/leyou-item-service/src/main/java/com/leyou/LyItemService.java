@@ -12,7 +12,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author li
- * @time 2018-08-03 21:23
+ * @time 2018-08-03 21:23a
  */
 @SpringBootApplication
 @EnableDiscoveryClient

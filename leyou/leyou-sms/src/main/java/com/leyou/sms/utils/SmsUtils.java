@@ -28,6 +28,8 @@ public class SmsUtils {
     @Autowired
     private SmsProperties properties;
 
+//    @Autowired
+//    private StringRedisTemplate redisTemplate;
     /**
      * 产品名称:云通信短信API产品,开发者无需替换
      */
@@ -71,6 +73,7 @@ public class SmsUtils {
         //hint 此处可能会抛出异常，注意catch
         SendSmsResponse sendSmsResponse = acsClient.getAcsResponse(request);
 
+//        redisTemplate.opsforValue().set(key,String.valueOf(System.currentTimeMillis()));
         return sendSmsResponse;
     }
 }
