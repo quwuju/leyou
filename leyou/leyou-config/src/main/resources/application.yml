@@ -15,7 +15,7 @@ spring:
 #    virtual-host: /leyou
 
 ##我在本地增加的代码，用来测试冲突的场景本地测试命令行解决冲突
-
+##测试提交
 
 
 management: #暴露触发消息总线的地址
