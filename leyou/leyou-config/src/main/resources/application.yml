@@ -14,7 +14,7 @@ spring:
 #    password: leyou
 #    virtual-host: /leyou
 ##我在本地增加的代码，用来测试冲突的场景
-#这是7月27日增加的注释
+#这是7月27日增加的注释，远端增加代码测试冲突
 
 management: #暴露触发消息总线的地址
   endpoints:
